@@ -1,0 +1,244 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Meris\\Desktop\\Playwright_PostgreSQL\\playwright.config.ts",
+    "rootDir": "C:/Users/Meris/Desktop/Playwright_PostgreSQL",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1,
+      "totalTime": 725.515
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Meris/Desktop/Playwright_PostgreSQL/test-results",
+        "repeatEach": 1,
+        "retries": 3,
+        "id": "Firefox",
+        "name": "Firefox",
+        "testDir": "C:/Users/Meris/Desktop/Playwright_PostgreSQL",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/example.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.37.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\example.test.ts",
+      "file": "tests/example.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test Case 01: Validate select query from DB",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Firefox",
+              "projectName": "Firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 51,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "=========== Tests started ===========\n"
+                    },
+                    {
+                      "text": "[\n  {\n    film_id: \u001b[33m1\u001b[39m,\n    title: \u001b[32m'Academy Dinosaur'\u001b[39m,\n    description: \u001b[32m'A Epic Drama of a Feminist And a Mad Scientist who must Battle a Teacher in The Canadian Rockies'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m6\u001b[39m,\n    rental_rate: \u001b[32m'0.99'\u001b[39m,\n    length: \u001b[33m86\u001b[39m,\n    replacement_cost: \u001b[32m'20.99'\u001b[39m,\n    rating: \u001b[32m'PG'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Deleted Scenes'\u001b[39m, \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'academi':1 'battl':15 'canadian':20 'dinosaur':2 'drama':5 'epic':4 'feminist':8 'mad':11 'must':14 'rocki':21 'scientist':12 'teacher':17\"\u001b[39m,\n    actor_id: \u001b[33m1\u001b[39m\n  },\n  {\n    film_id: \u001b[33m17\u001b[39m,\n    title: \u001b[32m'Alone Trip'\u001b[39m,\n    description: \u001b[32m'A Fast-Paced Character Study of a Composer And a Dog who must Outgun a Boat in An Abandoned Fun House'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m3\u001b[39m,\n    rental_rate: \u001b[32m'0.99'\u001b[39m,\n    length: \u001b[33m82\u001b[39m,\n    replacement_cost: \u001b[32m'14.99'\u001b[39m,\n    rating: \u001b[32m'R'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m, \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'abandon':22 'alon':1 'boat':19 'charact':7 'compos':11 'dog':14 'fast':5 'fast-pac':4 'fun':23 'hous':24 'must':16 'outgun':17 'pace':6 'studi':8 'trip':2\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  },\n  {\n    film_id: \u001b[33m23\u001b[39m,\n    title: \u001b[32m'Anaconda Confessions'\u001b[39m,\n    description: \u001b[32m'A Lacklusture Display of a Dentist And a Dentist who must Fight a Girl in Australia'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m3\u001b[39m,\n    rental_rate: \u001b[32m'0.99'\u001b[39m,\n    length: \u001b[33m92\u001b[39m,\n    replacement_cost: \u001b[32m'9.99'\u001b[39m,\n    rating: \u001b[32m'R'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m, \u001b[32m'Deleted Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'anaconda':1 'australia':18 'confess':2 'dentist':8,11 'display':5 'fight':14 'girl':16 'lacklustur':4 'must':13\"\u001b[39m,\n    actor_id: \u001b[33m1\u001b[39m\n  },\n  {\n    film_id: \u001b[33m25\u001b[39m,\n    title: \u001b[32m'Angels Life'\u001b[39m,\n    description: \u001b[32m'A Thoughtful Display of a Woman And a Astronaut who must Battle a Robot in Berlin'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m3\u001b[39m,\n    rental_rate: \u001b[32m'2.99'\u001b[39m,\n    length: \u001b[33m74\u001b[39m,\n    replacement_cost: \u001b[32m'15.99'\u001b[39m,\n    rating: \u001b[32m'G'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m ],\n    fulltext: \u001b[32m\"'angel':1 'astronaut':11 'battl':14 'berlin':18 'display':5 'life':2 'must':13 'robot':16 'thought':4 'woman':8\"\u001b[39m,\n    actor_id: \u001b[33m1\u001b[39m\n  },\n  {\n    film_id: \u001b[33m40\u001b[39m,\n    title: \u001b[32m'Army Flintstones'\u001b[39m,\n    description: \u001b[32m'A Boring Saga of a Database Administrator And a Womanizer who must Battle a Waitress in Nigeria'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m4\u001b[39m,\n    rental_rate: \u001b[32m'0.99'\u001b[39m,\n    length: \u001b[33m148\u001b[39m,\n    replacement_cost: \u001b[32m'22.99'\u001b[39m,\n    rating: \u001b[32m'R'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m, \u001b[32m'Commentaries'\u001b[39m ],\n    fulltext: \u001b[32m\"'administr':9 'armi':1 'battl':15 'bore':4 'databas':8 'flintston':2 'must':14 'nigeria':19 'saga':5 'waitress':17 'woman':12\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  },\n  {\n    film_id: \u001b[33m42\u001b[39m,\n    title: \u001b[32m'Artist Coldblooded'\u001b[39m,\n    description: \u001b[32m'A Stunning Reflection of a Robot And a Moose who must Challenge a Woman in California'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m5\u001b[39m,\n    rental_rate: \u001b[32m'2.99'\u001b[39m,\n    length: \u001b[33m170\u001b[39m,\n    replacement_cost: \u001b[32m'10.99'\u001b[39m,\n    rating: \u001b[32m'NC-17'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m, \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'artist':1 'california':18 'challeng':14 'coldblood':2 'moos':11 'must':13 'reflect':5 'robot':8 'stun':4 'woman':16\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  },\n  {\n    film_id: \u001b[33m87\u001b[39m,\n    title: \u001b[32m'Boondock Ballroom'\u001b[39m,\n    description: \u001b[32m'A Fateful Panorama of a Crocodile And a Boy who must Defeat a Monkey in The Gulf of Mexico'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m7\u001b[39m,\n    rental_rate: \u001b[32m'0.99'\u001b[39m,\n    length: \u001b[33m76\u001b[39m,\n    replacement_cost: \u001b[32m'14.99'\u001b[39m,\n    rating: \u001b[32m'NC-17'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'ballroom':2 'boondock':1 'boy':11 'crocodil':8 'defeat':14 'fate':4 'gulf':19 'mexico':21 'monkey':16 'must':13 'panorama':5\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  },\n  {\n    film_id: \u001b[33m106\u001b[39m,\n    title: \u001b[32m'Bulworth Commandments'\u001b[39m,\n    description: \u001b[32m'A Amazing Display of a Mad Cow And a Pioneer who must Redeem a Sumo Wrestler in The Outback'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m4\u001b[39m,\n    rental_rate: \u001b[32m'2.99'\u001b[39m,\n    length: \u001b[33m61\u001b[39m,\n    replacement_cost: \u001b[32m'14.99'\u001b[39m,\n    rating: \u001b[32m'G'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m ],\n    fulltext: \u001b[32m\"'amaz':4 'bulworth':1 'command':2 'cow':9 'display':5 'mad':8 'must':14 'outback':21 'pioneer':12 'redeem':15 'sumo':17 'wrestler':18\"\u001b[39m,\n    actor_id: \u001b[33m1\u001b[39m\n  },\n  {\n    film_id: \u001b[33m111\u001b[39m,\n    title: \u001b[32m'Caddyshack Jedi'\u001b[39m,\n    description: \u001b[32m'A Awe-Inspiring Epistle of a Woman And a Madman who must Fight a Robot in Soviet Georgia'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m3\u001b[39m,\n    rental_rate: \u001b[32m'0.99'\u001b[39m,\n    length: \u001b[33m52\u001b[39m,\n    replacement_cost: \u001b[32m'17.99'\u001b[39m,\n    rating: \u001b[32m'NC-17'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Commentaries'\u001b[39m, \u001b[32m'Deleted Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'awe':5 'awe-inspir':4 'caddyshack':1 'epistl':7 'fight':16 'georgia':21 'inspir':6 'jedi':2 'madman':13 'must':15 'robot':18 'soviet':20 'woman':10\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  },\n  {\n    film_id: \u001b[33m140\u001b[39m,\n    title: \u001b[32m'Cheaper Clyde'\u001b[39m,\n    description: \u001b[32m'A Emotional Character Study of a Pioneer And a Girl who must Discover a Dog in Ancient Japan'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m6\u001b[39m,\n    rental_rate: \u001b[32m'0.99'\u001b[39m,\n    length: \u001b[33m87\u001b[39m,\n    replacement_cost: \u001b[32m'23.99'\u001b[39m,\n    rating: \u001b[32m'G'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m, \u001b[32m'Commentaries'\u001b[39m, \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'ancient':19 'charact':5 'cheaper':1 'clyde':2 'discov':15 'dog':17 'emot':4 'girl':12 'japan':20 'must':14 'pioneer':9 'studi':6\"\u001b[39m,\n    actor_id: \u001b[33m1\u001b[39m\n  },\n  {\n    film_id: \u001b[33m166\u001b[39m,\n    title: \u001b[32m'Color Philadelphia'\u001b[39m,\n    description: \u001b[32m'A Thoughtful Panorama of a Car And a Crocodile who must Sink a Monkey in The Sahara Desert'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m6\u001b[39m,\n    rental_rate: \u001b[32m'2.99'\u001b[39m,\n    length: \u001b[33m149\u001b[39m,\n    replacement_cost: \u001b[32m'19.99'\u001b[39m,\n    rating: \u001b[32m'G'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Commentaries'\u001b[39m, \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'car':8 'color':1 'crocodil':11 'desert':20 'monkey':16 'must':13 'panorama':5 'philadelphia':2 'sahara':19 'sink':14 'thought':4\"\u001b[39m,\n    actor_id: \u001b[33m1\u001b[39m\n  },\n  {\n    film_id: \u001b[33m185\u001b[39m,\n    title: \u001b[32m'Cowboy Doom'\u001b[39m,\n    description: \u001b[32m'A Astounding Drama of a Boy And a Lumberjack who must Fight a Butler in A Baloon'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m3\u001b[39m,\n    rental_rate: \u001b[32m'2.99'\u001b[39m,\n    length: \u001b[33m146\u001b[39m,\n    replacement_cost: \u001b[32m'10.99'\u001b[39m,\n    rating: \u001b[32m'PG'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Commentaries'\u001b[39m, \u001b[32m'Deleted Scenes'\u001b[39m, \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'astound':4 'baloon':19 'boy':8 'butler':16 'cowboy':1 'doom':2 'drama':5 'fight':14 'lumberjack':11 'must':13\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  },\n  {\n    film_id: \u001b[33m277\u001b[39m,\n    title: \u001b[32m'Elephant Trojan'\u001b[39m,\n    description: \u001b[32m'A Beautiful Panorama of a Lumberjack And a Forensic Psychologist who must Overcome a Frisbee in A Baloon'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m4\u001b[39m,\n    rental_rate: \u001b[32m'4.99'\u001b[39m,\n    length: \u001b[33m126\u001b[39m,\n    replacement_cost: \u001b[32m'24.99'\u001b[39m,\n    rating: \u001b[32m'PG-13'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Behind the Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'baloon':20 'beauti':4 'eleph':1 'forens':11 'frisbe':17 'lumberjack':8 'must':14 'overcom':15 'panorama':5 'psychologist':12 'trojan':2\"\u001b[39m,\n    actor_id: \u001b[33m1\u001b[39m\n  },\n  {\n    film_id: \u001b[33m289\u001b[39m,\n    title: \u001b[32m'Eve Resurrection'\u001b[39m,\n    description: \u001b[32m'A Awe-Inspiring Yarn of a Pastry Chef And a Database Administrator who must Challenge a Teacher in A Baloon'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m5\u001b[39m,\n    rental_rate: \u001b[32m'4.99'\u001b[39m,\n    length: \u001b[33m66\u001b[39m,\n    replacement_cost: \u001b[32m'25.99'\u001b[39m,\n    rating: \u001b[32m'G'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Trailers'\u001b[39m, \u001b[32m'Commentaries'\u001b[39m, \u001b[32m'Deleted Scenes'\u001b[39m ],\n    fulltext: \u001b[32m\"'administr':15 'awe':5 'awe-inspir':4 'baloon':23 'challeng':18 'chef':11 'databas':14 'eve':1 'inspir':6 'must':17 'pastri':10 'resurrect':2 'teacher':20 'yarn':7\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  },\n  {\n    film_id: \u001b[33m329\u001b[39m,\n    title: \u001b[32m'Forrest Sons'\u001b[39m,\n    description: \u001b[32m'A Thrilling Documentary of a Forensic Psychologist And a Butler who must Defeat a Explorer in A Jet Boat'\u001b[39m,\n    release_year: \u001b[33m2006\u001b[39m,\n    language_id: \u001b[33m1\u001b[39m,\n    rental_duration: \u001b[33m4\u001b[39m,\n    rental_rate: \u001b[32m'2.99'\u001b[39m,\n    length: \u001b[33m63\u001b[39m,\n    replacement_cost: \u001b[32m'15.99'\u001b[39m,\n    rating: \u001b[32m'R'\u001b[39m,\n    last_update: \u001b[35m2013-05-26T12:50:58.951Z\u001b[39m,\n    special_features: [ \u001b[32m'Commentaries'\u001b[39m ],\n    fulltext: \u001b[32m\"'boat':21 'butler':12 'defeat':15 'documentari':5 'explor':17 'forens':8 'forrest':1 'jet':20 'must':14 'psychologist':9 'son':2 'thrill':4\"\u001b[39m,\n    actor_id: \u001b[33m3\u001b[39m\n  }\n]\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-09-10T10:55:51.915Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a6ef45e6fd775f0ee539-ff04e9e3cee7a65fa967",
+          "file": "tests/example.test.ts",
+          "line": 32,
+          "column": 5
+        },
+        {
+          "title": "Test Case 02: Insert INTO actor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Firefox",
+              "projectName": "Firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 20,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-09-10T10:55:52.030Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a6ef45e6fd775f0ee539-aad2255c32664ecd075b",
+          "file": "tests/example.test.ts",
+          "line": 57,
+          "column": 5
+        },
+        {
+          "title": "Test Case 03: SELECT new inserted actor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Firefox",
+              "projectName": "Firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 18,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "{\n  actor_id: \u001b[33m300\u001b[39m,\n  first_name: \u001b[32m'AutomationUser'\u001b[39m,\n  last_name: \u001b[32m'TestAutomationUser'\u001b[39m,\n  last_update: \u001b[35m2030-01-01T14:15:15.000Z\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-09-10T10:55:52.052Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a6ef45e6fd775f0ee539-a3e130000c81d23e7e95",
+          "file": "tests/example.test.ts",
+          "line": 74,
+          "column": 5
+        },
+        {
+          "title": "Test Case 04: UPDATE inserted actor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Firefox",
+              "projectName": "Firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 14,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-09-10T10:55:52.071Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a6ef45e6fd775f0ee539-3260432a9203c80f0b06",
+          "file": "tests/example.test.ts",
+          "line": 93,
+          "column": 5
+        },
+        {
+          "title": "Test Case 05: DELETE actor",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Firefox",
+              "projectName": "Firefox",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 11,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "=========== Tests stoped ===========\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-09-10T10:55:52.086Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a6ef45e6fd775f0ee539-01dafaa5178bb31f48c3",
+          "file": "tests/example.test.ts",
+          "line": 116,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "postgresqlxplaywright",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
